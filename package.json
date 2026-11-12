@@ -1,0 +1,24 @@
+{
+  "name": "allinone-cv2-bot",
+  "version": "1.2.0",
+  "description": "All-in-one Discord bot on Components V2 (discord.js v14) with an AI staff member powered by Groq. 693 commands, 100 slash commands, 797 AI capabilities: automod, anti-raid, tickets, logging and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node scripts/deploy.js",
+    "test": "node scripts/selftest.js && node scripts/aitest.js && node scripts/featuretest.js",
+    "docs": "node scripts/docs.js"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@snazzah/davey": "^0.1.9",
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.8.4",
+    "opusscript": "^0.1.1"
+  }
+}
